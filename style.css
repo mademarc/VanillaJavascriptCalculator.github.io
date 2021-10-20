@@ -1,0 +1,51 @@
+* {
+    background: #1f1010;
+ }
+ body{
+     color: #6cacc5;
+     font: 18px/1.1 "Source Sans Pro", sans-serif;
+     padding: 5em 0 2em;
+     text-align: center;
+ }
+ h1{
+      
+       font-weight:lighter;
+     background: linear-gradient(45deg, #7b7bc9 40%, #b4bbcc 60%);
+      -webkit-text-fill-color: transparent;
+ }
+ 
+ .calculator{
+     font-size: 20px;
+     margin: auto;
+     width: 18em;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+ }
+ .user{
+     color: #bbb1b1;
+     font-size: 28px;
+     text-align: right;
+     margin-right: 10%;
+     margin-top: -0.5em;
+     margin-bottom: 0.5em;
+ } 
+ .erase{
+     margin-bottom: -2em;
+     margin-left: -11.35em;
+ }
+ 
+ button {
+     background: #0f1a6647;
+     color: #6cacc5;
+     cursor: pointer;
+     font: inherit;
+     width: 3em;
+     padding: 1em;
+     margin: 0.3em;
+     outline: none;
+     border: none;
+ }
+ button:hover{
+     opacity: 0.4;
+ }
